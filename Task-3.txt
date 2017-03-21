@@ -1,0 +1,24 @@
+the  : 	233409
+of   : 	141231
+and  : 	116611
+in   : 	94534
+to   : 	80391
+a    : 	72323
+is   : 	45516
+for  : 	36272
+as   : 	29939
+
+The above 9 words would be the stoplist as per my opinion.
+
+These words are chosen based on their frequencies and these are the highly ranked words in the given corpus.
+The reason to consider these above mentioned words as stop words because they appear more number of times,
+in the corpus and they have very little meaning of their own. Thus they do not affect result much.
+
+At the same time, not all high frequency words can be considered stop words. This is because,
+in this corpus the word "energy" is ranked 10th but making this a stop word will affect the system.
+Because "energy" is an important word in its own right and it could aslo be that many articles will
+be based on energy. Thus it is not feasible to make all the high ranking words as stop words.
+
+the best solution to this is to not keep a stop list at all. This way all the words will be indexed,
+and everyword can be searched for. However, this does have a downside of memory consumption but still 
+not having a stoplist is a better for processing queries like "to be not to be".    

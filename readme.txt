@@ -1,37 +1,11 @@
-INFORMATION RETRIEVAL - HW3
+# Search Engine Indexer
 
 All the tasks are coded in Python, version 2.7
 
 NOTE : Before running any of the .py files, kindly change the path to the input files
 
- ---- Python files included :
-    
-	-- Indexer.py - Task 2
-	-- textparser.py - Task 1 - to ready the corpus for the indexer
-	-- textsort.py - Sort a text file lexicographically
-	
 **********************************************************************************************************************	
 
-All text files are best viewed in Notepad++ than Notepad.
-
- ---- File "unigram-df.txt" contains the table with term, documnet ID, and df for uni-grams sorted lexicographically 
-      based on terms.
-
- ---- File "unigram-tf.txt" contains the table with term and tf for uni-grams sorted based on the frequency of the term.
-
- ---- File "bigram-df.txt" contains the table with term, documnet ID, and df for bi-grams sorted lexicographically 
-      based on terms.
-
- ---- File "bigram-tf.txt" contains the table with term and tf for bi-grams sorted based on the frequency of the term.
-
- ---- File "trigram-df.txt" contains the table with term, documnet ID, and df for bi-grams sorted lexicographically 
-      based on terms.
-
- ---- File "trigram-tf.txt" contains the table with term and tf for bi-grams sorted based on the frequency of the term.
-
- ---- File "Task-3.txt" contains the stoplist and explation required for Task-3
-
-**************************************************************************************************************************
 Task 1,
 
   --- Files parsed and all HTML tags removed.
